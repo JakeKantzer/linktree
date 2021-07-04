@@ -57,9 +57,9 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-#banner img {
-    width: 95%;
-}
+/* #banner img {
+    width: 100%;
+} */
 
 #bandcamp-embed {
     max-width: 500px;
