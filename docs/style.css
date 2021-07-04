@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
 :root {
-    --bgColor: #00504C;
+    --bgColor: #4e2549;
     --bgColor2: #090a0f;
     --accentColor: #E6E6E6;
     --font: 'Source Sans Pro', sans-serif;
@@ -51,7 +51,7 @@ body {
 #banner, #banner img {
     position: relative;
     width: 100%;
-    max-width: 675px;
+    max-width: 400px;
     display: block;
     margin: 35px auto 10px;
     -webkit-tap-highlight-color: transparent;
