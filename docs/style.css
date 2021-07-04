@@ -68,6 +68,12 @@ body {
     margin: 27px auto;
 }
 
+#spotify-embed {
+    text-align: center;
+    width: auto;
+    display: block;
+}
+
 .link {
     position: relative;
     background-color: transparent;
