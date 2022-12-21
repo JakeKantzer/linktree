@@ -4,8 +4,13 @@
     --bgColor: #27489a;
     --bgColor2: #090a0f;
     --accentColor: #E6E6E6;
-    --font: 'Source Sans Pro', sans-serif;
+    --font: 'Centenariov', 'Source Sans Pro', sans-serif;
     --delay: .3s;
+}
+
+@font-face {
+    font-family: Centenariov;
+    src: url("Centenariov0.1-Regular.otf") format("opentype");
 }
 
 body {
