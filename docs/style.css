@@ -1,16 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 :root {
-    --bgColor: #27489a;
+    --bgColor: #5b0000;
     --bgColor2: #090a0f;
     --accentColor: #E6E6E6;
-    --font: 'Centenariov', 'Source Sans Pro', sans-serif;
+    --font: 'Nanum Gothic', 'Source Sans Pro', sans-serif;
     --delay: .3s;
-}
-
-@font-face {
-    font-family: Centenariov;
-    src: url("Centenariov0.1-Regular.otf") format("opentype");
 }
 
 body {
