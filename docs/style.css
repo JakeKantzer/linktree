@@ -30,6 +30,13 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+#promo {
+    max-width: 550px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
 #userName {
     color: var(--accentColor);
     font-size: 1rem;
@@ -43,7 +50,7 @@ body {
 }
 
 #links {
-    max-width: 675px;
+    max-width: 400px;
     width: auto;
     display: block;
     margin: 20px auto;
@@ -53,30 +60,21 @@ body {
     max-width: 675px;
     width: auto;
     display: block;
-    margin: 60px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
 #banner, #banner img {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     display: block;
     margin: 35px auto 25px auto;
     -webkit-tap-highlight-color: transparent;
 }
 
-#bandcamp-embed {
-    max-width: 500px;
-    width: auto;
-    display: block;
-    margin: 27px auto;
-}
-
-#spotify-embed {
-    margin: 0 auto;
-    width: auto;
-    max-width: 652px;
+#spotify-embed, #youtube-embed {
+    text-align: center;
 }
 
 .link {
@@ -95,6 +93,10 @@ body {
     text-decoration: none;
     /* transition: all .25s cubic-bezier(.08, .59, .29, .99); */
     -webkit-tap-highlight-color: transparent;
+}
+
+#promo .link {
+    font-size: 2rem;
 }
 
 .social-link {
